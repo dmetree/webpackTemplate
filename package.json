@@ -1,0 +1,41 @@
+{
+  "name": "WebPackTT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --progress -p",
+    "buildDev": "webpack --mode development --progress -p",
+    "watch": "webpack --mode production --progress --watch",
+    "watchDev": "webpack --mode development --progress --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@fancyapps/fancybox": "^3.5.6",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "parallax-js": "^3.1.0",
+    "popper.js": "^1.14.6",
+    "select2": "^4.0.6-rc.1",
+    "smooth-scrollbar": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "autoprefixer": "^9.4.3",
+    "babel-loader": "^8.0.0-beta.3",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "resolve-url-loader": "^3.0.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
